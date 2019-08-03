@@ -1,0 +1,35 @@
+{
+  "name": "fe",
+  "version": "1.0.0",
+  "description": "商城前后端分离",
+  "main": "index.js",
+  "scripts": {
+    "dev"        : "WEBPACK_ENV=dev webpack-dev-server --inline --port 8088",
+    "dev_win"    :"set WEBPACK_ENV=dev && webpack-dev-server --inline --port 8088",
+    "dist"       : "WEBPACK_ENV=online webpack -p",
+    "dist_win"   : "set WEBPACK_ENV=online && webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsweidy/FE.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsweidy/FE/issues"
+  },
+  "homepage": "https://github.com/jsweidy/FE#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^3.1.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^4.1.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^2.1.0",
+    "webpack": "^3.5.4",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^1.16.5"
+  }
+}
